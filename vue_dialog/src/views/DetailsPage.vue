@@ -282,20 +282,26 @@ export default {
       required: true
     }
   },
-  methods: {
-    closeDialog() {
-      this.$emit('closeDialog')
-    }
+  created() {
+    this.initializeDetails()
   },
   watch: {
     carDetails: {
       immediate: true,
-      handler(newVal) {
-        this.dimensions = newVal.dimensions || {}
-        this.specs = newVal.specs || {}
-        this.features = newVal.features || {}
-        this.pricing = newVal.pricing || {}
+      handler() {
+        this.initializeDetails()
       }
+    }
+  },
+  methods: {
+    closeDialog() {
+      this.$emit('closeDialog')
+    },
+    initializeDetails() {
+      this.dimensions = this.carDetails.dimensions || {}
+      this.specs = this.carDetails.specs || {}
+      this.features = this.carDetails.features || {}
+      this.pricing = this.carDetails.pricing || {}
     }
   }
 }

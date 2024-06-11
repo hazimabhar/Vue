@@ -1,0 +1,158 @@
+{
+    "cars": [
+      {
+        "id": "car001",
+        "make": "Toyota",
+        "model": "Corolla",
+        "year": 2021,
+        "specs": {
+          "engine": "1.8L I4",
+          "horsepower": 139,
+          "torque": "126 lb-ft",
+          "transmission": "CVT",
+          "drivetrain": "FWD",
+          "fuelEconomy": {
+            "city": "30 mpg",
+            "highway": "38 mpg",
+            "combined": "33 mpg"
+          }
+        },
+        "dimensions": {
+          "wheelbase": "106.3 in",
+          "length": "182.3 in",
+          "width": "70.1 in",
+          "height": "56.5 in",
+          "curbWeight": "2950 lbs"
+        },
+        "features": {
+          "interior": [
+            "Cloth Upholstery",
+            "Automatic Climate Control",
+            "7-inch Touchscreen",
+            "Apple CarPlay",
+            "Android Auto"
+          ],
+          "exterior": [
+            "LED Headlights",
+            "16-inch Steel Wheels",
+            "Heated Side Mirrors"
+          ],
+          "safety": [
+            "Pre-Collision System",
+            "Lane Departure Alert",
+            "Dynamic Radar Cruise Control",
+            "Automatic High Beams",
+            "Road Sign Assist"
+          ]
+        },
+        "pricing": {
+          "MSRP": "$20,025",
+          "invoice": "$19,100",
+          "destinationCharge": "$955"
+        }
+      },
+      {
+        "id": "car002",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 2021,
+        "specs": {
+          "engine": "2.0L I4",
+          "horsepower": 158,
+          "torque": "138 lb-ft",
+          "transmission": "CVT",
+          "drivetrain": "FWD",
+          "fuelEconomy": {
+            "city": "31 mpg",
+            "highway": "40 mpg",
+            "combined": "34 mpg"
+          }
+        },
+        "dimensions": {
+          "wheelbase": "106.3 in",
+          "length": "182.7 in",
+          "width": "70.9 in",
+          "height": "55.7 in",
+          "curbWeight": "2762 lbs"
+        },
+        "features": {
+          "interior": [
+            "Cloth Upholstery",
+            "Automatic Climate Control",
+            "5-inch Screen",
+            "Bluetooth",
+            "USB Port"
+          ],
+          "exterior": [
+            "Halogen Headlights",
+            "16-inch Alloy Wheels",
+            "Power Side Mirrors"
+          ],
+          "safety": [
+            "Honda Sensing",
+            "Collision Mitigation Braking System",
+            "Road Departure Mitigation",
+            "Adaptive Cruise Control",
+            "Lane Keeping Assist"
+          ]
+        },
+        "pricing": {
+          "MSRP": "$21,250",
+          "invoice": "$20,000",
+          "destinationCharge": "$955"
+        }
+      },
+      {
+        "id": "car003",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 2021,
+        "specs": {
+          "engine": "2.3L I4 Turbo",
+          "horsepower": 310,
+          "torque": "350 lb-ft",
+          "transmission": "6-speed Manual",
+          "drivetrain": "RWD",
+          "fuelEconomy": {
+            "city": "21 mpg",
+            "highway": "30 mpg",
+            "combined": "25 mpg"
+          }
+        },
+        "dimensions": {
+          "wheelbase": "107.1 in",
+          "length": "188.5 in",
+          "width": "75.4 in",
+          "height": "54.3 in",
+          "curbWeight": "3532 lbs"
+        },
+        "features": {
+          "interior": [
+            "Cloth Upholstery",
+            "Manual Air Conditioning",
+            "6-speaker Audio System",
+            "SYNC Infotainment",
+            "FordPass Connect"
+          ],
+          "exterior": [
+            "LED Headlights",
+            "17-inch Alloy Wheels",
+            "Dual Exhaust Pipes"
+          ],
+          "safety": [
+            "Pre-Collision Assist",
+            "Lane Keeping System",
+            "Rearview Camera",
+            "Adaptive Cruise Control",
+            "Blind Spot Monitoring"
+          ]
+        },
+        "pricing": {
+          "MSRP": "$27,205",
+          "invoice": "$25,500",
+          "destinationCharge": "$1,195"
+        }
+      }
+    ]
+  }
+  

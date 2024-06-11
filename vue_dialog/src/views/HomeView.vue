@@ -17,7 +17,14 @@
             <td class="border px-4 py-2">{{ car.make }}</td>
             <td class="border px-4 py-2">{{ car.model }}</td>
             <td class="border px-4 py-2">{{ car.year }}</td>
-            <td class="border px-4 py-2"><i role="button" @click="openDetails(car)" class="fa-solid fa-eye hover:text-slate-400"></i></td>
+            <td class="border px-4 py-2">
+              <i
+                role="button"
+                @click="openDetails(car)"
+                class="fa-solid fa-eye hover:text-slate-400"
+              >
+              </i>
+            </td>
           </tr>
         </tbody>
       </table>
@@ -25,7 +32,6 @@
   </div>
   <DetailsPage :open-dialog="openDialog" :car-details="carDetails" @close-dialog="closeDialog" />
 </template>
-
 
 <script>
 import mockData from '../mockData.json'
@@ -46,9 +52,8 @@ export default {
     openDetails(car) {
       this.openDialog = true
       this.carDetails = car
-      console.log(this.carDetails)
     },
-    closeDialog(){
+    closeDialog() {
       this.openDialog = false
       this.carDetails = {}
     }
